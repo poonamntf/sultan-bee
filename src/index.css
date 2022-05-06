@@ -1,0 +1,1000 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f8f2f2;
+}
+
+/* hotel Details start */
+.maincontainer {
+  background-color: #a4a7ab17;
+}
+
+h6.distance {
+  font-size: 12px;
+  color: grey;
+}
+
+.subname {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4e4c4c;
+}
+
+.bottom span {
+  font-size: 10px;
+  color: grey;
+}
+.bottom .ratings {
+  margin-top: -12px;
+}
+
+.hotelitemContent .bottom .rating .MuiSvgIcon-root {
+  font-size: 14px;
+  color: orange;
+  margin-top: 0px;
+}
+
+.hotelitemCard {
+  background-color: white;
+  border-radius: 20px;
+  height: 100px;
+}
+
+.hotelitemCard h3 {
+  font-size: 14px;
+}
+
+.hotelitemCard .imgBox img {
+  border-radius: 15px;
+}
+
+/* hotel Details end */
+
+/* banner start */
+.banner {
+  border-radius: 0px 0px 30px 30px;
+  overflow: hidden;
+  background-color: white;
+}
+.main_banner {
+  background-color: #f8901c;
+  border-radius: 0px 0px 20px 20px;
+  /* height: 116px; */
+}
+
+.item {
+  font-size: 10px;
+  height: 29px;
+  background: #fff;
+  border-radius: 9px;
+  color: grey;
+}
+.item:hover {
+  color: #f8901c;
+}
+
+.kdCslO {
+  display: none !important;
+}
+.eWjCzc {
+  font-size: 10px !important;
+  background-color: transparent !important;
+  color: #faf9fb !important;
+  box-shadow: none !important;
+  width: 20px !important;
+  min-width: 15px !important;
+  font-weight: 700;
+}
+
+.eAyARa {
+  font-size: 10px !important;
+  color: #faf9fb !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  width: 20px !important;
+  min-width: 15px !important;
+  font-weight: 700;
+}
+.today {
+  /* color: #fff; */
+  font-size: 14px;
+}
+
+.menuCard {
+  width: 65px;
+  border-radius: 11px;
+  color: #fff;
+  background-color: #f8901c;
+}
+
+.menuCard h6 {
+  margin: 22px 0px;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+}
+
+.imgMenu img {
+  border-radius: 15px;
+  height: 59px;
+  width: 100%;
+}
+
+/* banner end */
+
+/* timer */
+
+/* item views start */
+.itemContent {
+  border-radius: 15px;
+}
+
+.itemContent .itemName {
+  font-size: 12px;
+}
+
+.itemContent .bottom .rating .MuiSvgIcon-root {
+  font-size: 14px;
+}
+
+.itemContent .bottom .rating .MuiSvgIcon-root {
+  font-size: 14px;
+  color: #f8901c;
+  margin-top: 0px;
+}
+
+.itemrate {
+  margin: -24px 0px 0px 104px;
+}
+
+.itemContent .bottom .price {
+  font-size: 13px;
+}
+
+.itemContent .bottom .price sp .text-white.position-absolute {
+  right: 33px;
+  bottom: 88px;
+}
+an {
+  color: #f8901c;
+  font-size: 12px;
+}
+
+h1.discription {
+  font-size: 10px;
+  color: grey;
+}
+
+.itemContent .addToCart {
+  background: transparent;
+  width: 55px;
+  height: 25px;
+  /* border-radius: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border: 2px solid #f8901c;
+  border-radius: 8px;
+  color: #f8901c;
+  font-size: 11px;
+  font-family: system-ui;
+  font-weight: 600;
+}
+
+.addToCart
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  color: orange;
+  margin-top: 0px;
+  padding: -11px;
+  margin-left: 6px;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.itemContent .addToCart .MuiSvgIcon-root {
+  color: #faf9fb;
+  font-size: 16px;
+}
+
+.orange {
+  color: #f8901c !important;
+}
+
+.gray {
+  color: #373848 !important;
+}
+
+/* items view end */
+
+.sultanbeeImg {
+  display: grid;
+  place-items: center;
+}
+
+.imgaestyle {
+  height: 200px;
+  margin: 167px 0px;
+}
+
+/* home page css */
+.homeContainer {
+  position: relative;
+}
+
+.hometext {
+  position: absolute;
+}
+
+/* slider */
+
+body {
+  background-color: #333;
+}
+
+/* hotel food */
+/* 
+.text-white.position-absolute {
+  right: 33px;
+  bottom: 88px;
+} */
+
+.hotelitemCard .imgBox img,
+.addSomeItem img {
+  width: 81px;
+  height: 81px;
+}
+
+.itemCard .imgBox img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+.slider {
+  margin-top: 110px;
+  background-color: whitesmoke;
+  padding: 8em 2em;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-1000%);
+  }
+}
+
+/* Map Button */
+/* .maincontainer {
+  position: relative;
+} */
+/* .map_btn_div {
+  bottom: 10%;
+  left: 70%;
+}
+
+.map_btn_div button.map_btn.btn.btn-primary {
+  background: #f38e0a;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: 700;
+}*/
+/* left  menu */
+.leftMenu {
+  background: #f9fafb;
+  border-radius: 19px 19px 0px 0px;
+  z-index: 101;
+  box-shadow: 0px 6px 10px 6px grey;
+}
+
+.leftMenu ul {
+  margin-top: -20px;
+}
+.leftMenu ul li {
+  position: relative;
+  list-style: none;
+  height: 60px;
+  z-index: 1;
+}
+
+.leftMenu ul li a {
+  position: relative;
+  color: #87878787;
+  text-decoration: none;
+}
+.leftMenu ul li a .icon {
+  line-height: 70px;
+  transition: 0.5s;
+}
+
+.leftMenu ul li a .icon .MuiSvgIcon-root {
+  font-size: 26px;
+  color: #87878787;
+}
+
+.leftMenu ul li.active a .icon .MuiSvgIcon-root,
+.leftMenu ul li.active a .text {
+  color: #f8901c;
+  transition: 0.5s;
+}
+
+.leftmenucompo h6 {
+  font-size: 10px;
+  margin-top: -13px;
+}
+
+/* end left menu */
+
+/* row container */
+.rowContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.rowContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.rowMenuCard {
+  /* width: 80px; */
+  min-width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.rowMenuCard:hover,
+.rowMenuCard.active {
+  background: #f8901c;
+}
+
+.rowMenuCard .imgBox {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  transition: 0.5s;
+}
+
+.rowMenuCard:hover .imgBox,
+.rowMenuCard.active .imgBox {
+  background: #faf9fb;
+}
+
+.rowMenuCard .imgBox img {
+  object-fit: contain;
+  width: 100%;
+  height: 60%;
+}
+
+.rowMenuCard:hover .imgBox img,
+.rowMenuCard.active .imgBox img {
+  width: 80%;
+  height: 50%;
+  transition: 0.5s;
+}
+
+.rowMenuCard h3 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #f8901c;
+  transition: 0.5s;
+}
+
+.rowMenuCard:hover h3,
+.rowMenuCard.active h3 {
+  color: #faf9fb;
+}
+
+/*--------------------- vegMenuContainer start -------------------*/
+.vegContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.vegContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.rowVegCard {
+  /* width: 80px; */
+  min-width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.rowVegCard:hover,
+.rowVegCard.active {
+  background: #f8901c;
+}
+
+.rowVegCard .vegimgBox {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  transition: 0.5s;
+}
+
+.rowVegCard:hover .vegimgBox,
+.rowVegCard.active .vegimgBox {
+  background: #faf9fb;
+}
+
+.rowVegCard .vegimgBox img {
+  object-fit: contain;
+  width: 100%;
+  height: 60%;
+}
+
+.rowVegCard:hover .vegimgBox img,
+.rowVegCard.active .vegimgBox img {
+  width: 80%;
+  height: 50%;
+  transition: 0.5s;
+}
+
+.rowVegCard h3 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #f8901c;
+  transition: 0.5s;
+}
+
+.rowVegCard:hover h3,
+.rowVegCard.active h3 {
+  color: #faf9fb;
+}
+
+.rightVegMenuContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.rightVegMenuContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.rowVegMenuCard {
+  /* width: 80px; */
+  min-width: 80px;
+  height: 36px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.rowVegMenuCard h3 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #464444;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+.vegitableleft .imgBox img {
+  width: 120px;
+  height: 81px;
+}
+.vegitableCheckOut {
+  outline: none;
+  border: none;
+  width: 85%;
+  padding: 11px 20px;
+  background: #f8901c;
+  border-radius: 3vw;
+  color: #faf9fb;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  position: fixed;
+  bottom: 34px;
+  margin-left: 28px;
+}
+
+.vegitableleft h6 {
+  font-size: 12px;
+}
+
+button.vegitableCheckOut.text-center {
+  font-size: 14px;
+}
+/* -----------------------vegMenuContainer end -------------------- */
+
+/* All menu part */
+a.linkclass {
+  color: black;
+  text-decoration: none;
+}
+
+.maincontainer .subcarousel {
+  padding-top: 40px;
+}
+
+.itemCard {
+  /* padding: 46px; */
+  border: 9px solid #fff;
+}
+/* 
+.itemCard {
+  display: flex;
+}
+.itemCard .imgBox img {
+  height: 130px;
+  border-radius: 10px;
+} */
+
+/* cart Section start */
+.cartContainer {
+  width: 100%;
+  flex: 1;
+  min-width: 320px;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+.itemSection {
+  border: 2px solid orange;
+  border-radius: 10px;
+  width: 60px;
+  height: 26px;
+}
+
+h6.bg-orange {
+  background-color: orange;
+
+  font-size: 12px;
+}
+.itemSection .itemAdd {
+  margin-top: -7px;
+  margin-left: -15px;
+
+  color: orange;
+}
+.itemSection .itemRemove {
+  color: orange;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.mx-1.star.mt-0.css-i4bv87-MuiSvgIcon-root {
+  color: orange;
+  width: 14px;
+}
+/* 
+.cartItems {
+  width: 100%;
+  min-height: 280px;
+  max-height: 320px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.cartItems::-webkit-scrollbar {
+  display: none;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.cartItem .imgBox {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  background: #00ffc855;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.cartItem .imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cartItem .itemSection {
+  margin-left: 10px;
+}
+
+.cartItem .itemSection .itemName {
+  font-size: 16px;
+  color: #2a2b3c;
+}
+
+.cartItem .itemSection .itemQuantity {
+  font-size: 16px;
+  color: #2a2b3c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.cartItem .itemSection .itemQuantity span {
+  color: #f8901c;
+}
+
+.cartItem .itemSection .itemQuantity .quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 60px;
+}
+
+.cartItem .itemSection .itemQuantity .quantity .itemRemove {
+  color: #2a2b3c;
+  font-size: 24px;
+}
+
+.cartItem .itemSection .itemQuantity .quantity .itemAdd {
+  color: #2a2b3c;
+  font-size: 24px;
+}
+
+.cartItem .itemPrice {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2a2b3c;
+  margin-left: auto;
+}
+
+.cartItem .itemPrice .dolorSign {
+  font-size: 12px;
+  color: #f8901c;
+}
+
+.cartItem .itemPrice .itemPriceValue {
+  font-size: 16px;
+  color: #373848;
+} */
+.rightMenu,
+.rightmenu {
+  width: 375px;
+  height: calc(100% - 60px);
+  background: #f5f3f3;
+  position: fixed;
+  right: 0;
+  border-radius: 25px 25px 0px 0px;
+  top: 90px;
+  z-index: 105;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  transform: translateY(200%);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+.rightMenu.active {
+  transform: translateY(0%);
+}
+
+.rightmenu.active {
+  transform: translateY(0%);
+}
+.rightSumMenu {
+  width: 375px;
+  height: calc(100% - 60px);
+  background: #f8f9fa;
+  position: fixed;
+  right: 0;
+  border-radius: 25px 25px 0px 0px;
+  top: 134px;
+  z-index: 105;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+.rightVegMenuContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.totalSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+  margin: 15px 0px;
+}
+
+.totalSection h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2a2b3c;
+}
+
+.totalSection p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2a2b3c;
+}
+
+.totalSection p span {
+  font-size: 14px;
+  color: #f8901c;
+}
+.main {
+  position: relative;
+}
+/* .checkOut {
+  outline: none;
+  border: none;
+  width: 85%;
+  padding: 11px 20px;
+  background: #f8901c;
+  border-radius: 3vw;
+  color: #faf9fb;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  position: fixed;
+  bottom: 8px;
+  margin-left: 28px;
+} */
+
+.checkOut {
+  outline: none;
+  border: none;
+  width: 85%;
+  padding: 11px 20px;
+  background: #f8901c;
+  border-radius: 3vw;
+  color: #faf9fb;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  position: fixed;
+  bottom: -17px;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.ladeheader,
+.history {
+  background: #f8901c;
+  padding: 11px 20px;
+  border-radius: 0px 0px 18px 18px;
+  color: #faf9fb;
+  width: 100%;
+}
+
+/* .addSomeItem {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* cart Section end */
+
+/* hotel food section start */
+
+.hotelpara p {
+  font-size: 12px;
+}
+
+.hotelLogo img {
+  width: 100%;
+  height: calc(100vw / (545 / 133));
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: #fff;
+  margin-top: 12px;
+  padding: 1px;
+  height: 1.1em;
+
+  font-size: 1.5rem;
+}
+/* .hotelarrow {
+  margin-left: -12px;
+} */
+.hotelarrow
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  font-size: 30px;
+}
+
+.rightaerrow
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+span.text-orange.pb-4.mb-3.ms-5.ps-1 {
+  font-size: 12px;
+}
+
+/*     scan start     */
+.scanMain {
+  background-color: #4d4d4d;
+}
+
+.scanimage img {
+  height: 50vh;
+}
+
+/*     scan end       */
+
+/* hotel food section end */
+
+.modal {
+  position: inherit !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position: fixed;
+  background: rgb(243 142 10);
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.display-block {
+  display: block !important;
+}
+
+.display-none {
+  display: none;
+}
+.App {
+  margin-left: 19px;
+}
+
+button.text-white {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.cancel {
+  top: -13px;
+  right: 0;
+  font-size: 20px;
+}
+@media screen and (min-width: 650px) {
+  .rowContainer {
+    justify-content: space-between;
+  }
+
+  .inputBox {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  /* .hotelLogo img {
+    width: 100%;
+    height: 60vh;
+  } */
+
+  .toggleMenu {
+    display: none;
+  }
+
+  .profileContainer .userName {
+    display: block;
+  }
+
+  .leftMenu {
+    left: 21%;
+    width: 40%;
+  }
+
+  /* .mainContainer {
+    width: calc(100% - 350px);
+  } */
+
+  .deliveryPic {
+    bottom: -13px;
+    width: 278px;
+  }
+
+  .bannerContent h3 {
+    font-size: 24px;
+  }
+
+  .bannerContent p {
+    font-size: 15px;
+    margin: 12px 0;
+    width: unset;
+  }
+
+  .bannerContent a {
+    font-size: 16px;
+  }
+
+  main {
+    display: flex;
+  }
+  .mainContainer {
+    padding: 10px 30px;
+  }
+  /* 
+  .ladeheader p.ladekitchen {
+    margin: 16px 534px;
+  } */
+  /* .rightMenu {
+    position: fixed;
+    z-index: 1;
+    transform: translateX(0%);
+    top: unset;
+    padding: 20px 15px;
+  } */
+
+  /* .itemCard {
+    width: 180px;
+    height: 200px;
+  } */
+}
+@media only screen and (max-width: 767px) {
+  /* hotel item card */
+
+  .hotelitemCard {
+    width: 100%;
+  }
+
+  .itemCard {
+    width: 100%;
+  }
+
+  .text-white.position-absolute.text-center {
+    bottom: -87px;
+    right: 13px;
+  }
+
+  .hotelLogo img {
+    height: calc(100vw / (182 / 133));
+  }
+}
+
+/* dummy css */
+
+.BackImage {
+  background-image: url("/home/ntf-310/Desktop/sultan-bee/src/images/la-de-kitchen.png");
+  height: 50vh;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
